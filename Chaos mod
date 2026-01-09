@@ -1,0 +1,16 @@
+-- CHAOS V5 BY REALBLUEYT
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local StarterGui = game:GetService("StarterGui")
+
+-- Delay 10 giây
+task.wait(10)
+
+-- Gửi tin nhắn chat màu xanh lá
+StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = "script chaos mod v4 by RealblueYT";
+	Color = Color3.fromRGB(0, 255, 0); -- màu xanh lá
+	Font = Enum.Font.SourceSansBold;
+	TextSize = 18;
+})
